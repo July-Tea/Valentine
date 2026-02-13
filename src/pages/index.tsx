@@ -27,7 +27,7 @@ const noTexts = [
   "One yes and we both win.",
   "You're making this dramatic.",
   "Still no? really?",
-  "I brought virtual flowers!",
+  "I loved you!!!!!!",
   "I can be extra cute.",
   "Let's pretend you mis-clicked.",
   "Destiny says click yes.",
@@ -79,7 +79,7 @@ const noTexts = [
   "You broke me.",
   "You're breaking my heart ;(",
 ];
-const NO_FINAL_TRIGGER_COUNT = 50;
+const NO_FINAL_TRIGGER_COUNT = 75;
 
 const heartParticles = [
   { left: "8%", delay: "0s", duration: "10s", size: "16px", opacity: 0.55 },
@@ -121,9 +121,9 @@ const YES_BUTTON_CONFIG = {
   // 绿色按钮初始高度（像素）
   baseHeight: 56,
   // 每次点击红色按钮后，绿色按钮的放大倍率
-  growthFactor: 1.3,
+  growthFactor: 1.1,
   // 绿色按钮最大放大倍率
-  maxScale: 3.3,
+  maxScale: 4,
   // 桌面端：绿色按钮初始横向偏移（像素，负值表示在屏幕中心左侧）
   baseXOffsetDesktop: -120,
   // 手机端：绿色按钮初始横向偏移（像素，0 表示水平居中）
